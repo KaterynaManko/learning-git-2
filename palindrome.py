@@ -5,3 +5,10 @@ def palindrome(word):
     if(letters_list==reversed_letters_list):
         return True
     return False
+
+word = "око"
+word_verification = palindrome(word)
+if word_verification:
+    print("Паліндром")
+else:
+    print("Непаліндром")
